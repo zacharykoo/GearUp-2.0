@@ -63,7 +63,6 @@ public class GameProgression {
 		System.out.println("(Enter)");
 		input.nextLine();
 		System.out.println("\nThe time has come! The Demon King shows up, and it is time to fight.");
-		hero.updateStats();
 		printADHP(hero);
 		System.out.println("(Enter)");
 		input.nextLine();

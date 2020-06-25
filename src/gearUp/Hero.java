@@ -71,16 +71,13 @@ public class Hero {
 		return weights;
 	}
 	
-	public void updateStats() {
-		this.defense = (this.getArmor().getDefense() + this.getWeight().getDefense());
-		this.attack = (this.getEnergyDrink().getAttack() + this.getFans().getAttack() + this.getMetal().getAttack() + this.getWeight().getAttack());
-	}
-	
 	public int getAttack() {
+		this.attack = (this.getEnergyDrink().getAttack() + this.getFans().getAttack() + this.getMetal().getAttack() + this.getWeight().getAttack());
 		return attack;
 	}
 	
 	public int getDefense() {
+		this.defense = (this.getArmor().getDefense() + this.getWeight().getDefense());
 		return defense;
 	}
 }

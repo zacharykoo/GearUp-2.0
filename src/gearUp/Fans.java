@@ -13,7 +13,7 @@ public class Fans extends Item {
 		if (level == 1) {
 			System.out.println("Fans Upgrade! You became more popular! You now have 100 Fans!");
 		}
-		if (level == 2) {
+		else if (level == 2) {
 			System.out.println("Fans Upgrade! You became more popular! You now have 500 Fans!");
 		}
 		if (level < 3) {

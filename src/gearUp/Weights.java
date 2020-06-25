@@ -14,13 +14,13 @@ public class Weights extends Item {
 		if (level == 1) {
 			System.out.println("Weights Upgrade! You can now train with 10kg weights.");
 		}
-		if (level == 2) {
+		else if (level == 2) {
 			System.out.println("Weights Upgrade! You can now train with 50kg weights.");
 		}
-		if (level == 3) {
+		else if (level == 3) {
 			System.out.println("Weights Upgrade! You can now train with 100kg weights.");
 		}
-		if (level == 4) {
+		else if (level == 4) {
 			System.out.println("Weights Upgrade! You can now train with 999kg weights.");
 		}
 		
